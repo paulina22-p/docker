@@ -26,7 +26,7 @@ Si se requiere levantar nuevamente el contenedor, existen dos maneras:
      docker start pyspark_container
 ```
 
-##Acceso a Jupyter Notebook
+## Acceso a Jupyter Notebook
 ### Una vez levantado el contenedor y no se logra identificar el token para acceder al Jupyter notebook se requiere seguir los siguientes pasos:  
 1. Entrar al contendor:
       `winpty docker exec -it pyspark_container sh`  
